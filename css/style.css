@@ -1,0 +1,377 @@
+/* Barre de navigation*/
+* {
+transition : all 0.3s ease-in-out;
+}
+.container_nav {
+clear : both;
+overflow : auto;
+}
+nav {
+float : right;
+}
+.logo img {
+float : left;
+}
+ul li {
+display : inline-block;
+padding : 10px;
+font-size : 20px;
+font-family : raleway;
+cursor : default;
+}
+a {
+text-decoration : none;
+}
+/* Barre de recherche*/
+#box {
+display : inline-flex;
+max-width : 100%;
+}
+input {
+border-right : none;
+border-left : none;
+border-top : 1px solid #F2F2F2;
+border-bottom : 1px solid #F2F2F2;
+padding : 0 1.5rem;
+box-sizing : border-box;
+font-size : 1rem;
+font-weight : bold;
+}
+button {
+background-color : #0065FC;
+color : white;
+font-weight : bold;
+border : none;
+border-radius : 0 1rem 1rem 0;
+padding : 0 1.5rem;
+font-size : 1rem;
+cursor : pointer;
+}
+button, input {
+overflow : visible;
+font-family : inherit;
+font-size : 100%;
+line-height : 3.15;   /* augmente la taille de notre barre de recherche*/
+margin : 0;
+}
+/* Partie filtres*/
+#filtre {
+display : flex;
+justify-content : space-around;
+position : static;
+padding-right : 50%;
+margin-top : 20px;
+margin-bottom : 25px;
+}
+/* dissociation des filtres*/
+.eco {
+border-radius : 20px;
+padding : 0 1.5rem;
+font-size : 1rem;
+border-style : groove;
+}
+.familial {
+border-radius : 20px;
+padding : 0 1.5rem;
+font-size : 1rem;
+border-style : groove;
+}
+.romantique {
+border-radius : 20px;
+padding : 0 1.5rem;
+font-size : 1rem;
+border-style : groove;
+}
+.animaux {
+border-radius : 20px;
+padding : 0 1.5rem;
+font-size : 1rem;
+border-style : groove;
+}
+
+
+/* Colonne catégorie Hebergement et populaire*/
+
+.container{
+	display : flex;
+justify-content : space-around;
+
+padding : 10px;
+padding-left : 2em;
+padding-right : 2em;
+padding-bottom: 20px;
+
+}
+
+.image_hebergement {
+border-top-left-radius : 20px;
+border-top-right-radius : 20px;
+object-fit : cover; /* permet de redimensionner l'image*/
+}
+h2, .nuit {
+font-size : small;
+text-align : left;
+}
+
+/* Englobe la partie Hebergement et populaire*/
+
+.titre_hebergement {
+width : 100%; /* afin de prendre tout le container1 et de passer les img à la ligne*/
+
+}
+/* englobe la Partie hébergement*/
+
+
+.titre_hebergement {
+width : 100%; /* afin de prendre tout le container1 et de passer les img à la ligne*/
+
+}
+/* englobe la Partie hébergement*/
+
+.container1 {
+display : flex;
+justify-content: space-around;
+flex-wrap : wrap;
+padding : 5px;
+border-radius : 20px;
+position : relative;
+padding-left : 1em;
+
+margin-right: 100px;
+float: left;
+background-color : #F2F2F2;
+}
+
+.partie_herbegement {
+
+border-radius : 20px;
+background-color : white;
+padding-top : 10px;
+padding-right : 10px;
+padding-left : 10px;
+margin-bottom: 10px;
+}
+
+/* englobe la partie populaire */
+
+.titre_populaire {
+width : 100%;/* afin de prendre tout le container1 et de passer les img à la ligne*/
+margin-bottom: -1em;
+
+
+}
+.container2 {
+
+
+border-radius : 20px;
+position : relative;
+margin-right: 40px;
+background-color : #F2F2F2;
+float: right;
+
+}
+
+
+.partie_populaire {
+display : flex;
+justify-content : flex-start;
+
+border-radius : 20px;
+margin : 30px; /* j'ai reduit la marge du border*/
+background-color : white;
+padding-top : 5px;
+padding-right : 40px;
+padding-left : 3em;
+
+
+}
+
+ .description_hotel {
+	width: 150px;
+ }
+  /**
+  
+ 
+ * **/
+
+.img_populaire {
+display : flex;
+justify-content: flex-start;
+overflow : hidden;
+height : 150px; /* hauteur et largeur de mes images dans la section populaire*/
+width : 150px;
+border-top-left-radius : 30px;
+border-bottom-left-radius : 30px;
+object-fit : cover;
+
+margin-left: -40px;
+
+}
+
+/* Section activité à Marseille*/
+
+/*Englobe la partie gauche et droite des activités*/
+.container_activite{
+display : flex;
+justify-content : space-around;
+flex-wrap : wrap;
+align-items: stretch;
+padding : 10px;
+padding-left : 2em;
+padding-right : 2em;
+background-color : #F2F2F2;
+
+}
+
+
+
+
+.partie_activite_2{
+border-radius : 20px;
+margin : 30px;
+background-color : white;
+padding-top : 10px;
+padding-right : 10px;
+padding-left : 10px;
+box-shadow : 8px 8px 12px #aaa;
+position: relative;
+}
+
+.partie_activite{
+border-radius : 20px;
+margin : 30px;
+background-color : white;
+padding-top : 10px;
+padding-right : 10px;
+padding-left : 10px;
+box-shadow : 8px 8px 12px #aaa;
+position: relative;
+}
+
+.img_port {
+object-fit : cover;
+height : 400px;
+width : 300px;
+border-radius : 20px;
+
+}
+.Description_act {
+font-size : large;
+}
+.Fort {
+border-radius : 20px;
+margin : 30px;
+background-color : white;
+padding-top : 10px;
+padding-right : 10px;
+padding-left : 10px;
+box-shadow : 8px 8px 12px #aaa;
+}
+.img_fort {
+object-fit : cover;
+height : 150px;
+width : 250px;
+border-top-left-radius : 20px;
+border-top-right-radius : 20px;
+}
+.ile {
+border-radius : 20px;
+margin : 30px;
+background-color : white;
+padding-top : 10px;
+padding-right : 10px;
+padding-left : 10px;
+box-shadow : 8px 8px 12px #aaa;
+}
+.img_ile {
+object-fit : cover;
+height : 100px;
+width : 250px;
+border-top-left-radius : 20px;
+border-top-right-radius : 20px;
+}
+/* Partie parc national*/
+.partie_activité_2{
+border-radius : 20px;
+margin : 30px;
+background-color : white;
+padding-top : 10px;
+padding-right : 10px;
+padding-left : 10px;
+box-shadow : 8px 8px 12px #aaa;
+position: relative;
+}
+.img_parc {
+object-fit : cover;
+height : 400px;
+width : 300px;
+border-radius : 20px;
+}
+.notre_dame {
+border-radius : 20px;
+margin : 30px;
+background-color : white;
+padding-top : 10px;
+padding-right : 10px;
+padding-left : 10px;
+box-shadow : 8px 8px 12px #aaa;
+}
+.img_notre_dame {
+object-fit : cover;
+height : 150px;
+width : 250px;
+border-top-left-radius : 20px;
+border-top-right-radius : 20px;
+}
+.longchamp {
+border-radius : 20px;
+margin : 30px;
+background-color : white;
+padding-top : 10px;
+padding-right : 10px;
+padding-left : 10px;
+box-shadow : 8px 8px 12px #aaa;
+}
+.img_longchamp {
+object-fit : cover;
+height : 150px;
+width : 250px;
+border-top-left-radius : 20px;
+border-top-right-radius : 20px;
+}
+
+
+
+
+
+footer {
+width : 100%;
+padding-top : 10em;
+color : white;
+display : flex;
+
+flex-direction : column;
+overflow : auto;
+position : relative;
+}
+li {
+color : black;
+
+}
+h2 {
+
+text-align : left;
+color : black;
+font-size: large;
+}
+.column {
+position : relative;
+display : flex;
+justify-content : space-between;
+align-items: flex-start;
+
+background-color : #F2F2F2;
+}
+.left, .right, .middle {
+width : 25%;
+}
