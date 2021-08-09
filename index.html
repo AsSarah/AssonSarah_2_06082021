@@ -5,6 +5,9 @@
     <title>Reservia</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" media="screen and (max-width: 1280px)" href="css/petite_resolution.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500;700&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/a7ff71a825.js" crossorigin="anonymous"></script>
   </head>
 
@@ -56,23 +59,25 @@
       </div>
 
       <div class="eco">
-        <p>Economique</p>
+        <div class="icone_eco"> <i class="fas fa-money-bill-wave"></i></div>
+        <p class="info_filtre">Economique</p>
 
-        <i></i>
-
-      </div>
-
-      <div class="familial">
-        <i class="fas fa-child"></i>
-        <p>Familial</p>
-
-        <i></i>
+        
 
       </div>
+<div class="familial">
+        <div class="icone_famille"><i class="fas fa-child "></i> </div>
+      <p class="info_filtre">Familial</p>
+</div>       
+        
+
+        
+
+      
 
       <div class="romantique">
-        <i class="fas fa-heart"></i>
-        <p>Romantique</p>
+       <div class="icone_coeur"> <i class="fas fa-heart"></i> </div>
+        <p class="info_filtre">Romantique</p>
 
         
       </div>
@@ -80,16 +85,16 @@
       
 
       <div class="animaux">
-        <i class="fas fa-dog"></i>
-        <p>Animaux autorisés</p>
+       <div class="icone_animaux"> <i class="fas fa-dog"></i> </div>
+        <p class="info_filtre">Animaux autorisés</p>
         
       </div>  
   
     </div>  
-
-    <i class="fas fa-info"></i>
+<div class="info">
+    <i class="fas fa-info icone_info"></i>
     <p>Plus de 500 logements sont disponibles dans cette ville</p> 
-
+  </div>
                   <!-- Partie hebergement-->
 
     <section class="container">
@@ -104,15 +109,15 @@
           <article>
               <img class="image_hebergement" src="img/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="" style="width: 230px; height: 130px; margin: 0;">
             
-                      <!-- style line height pour aligner le texte a droite de l'image--> 
-              <h2 style="line-height:15px;">Auberge la cannebiere</h2>
+                      
+              <h2>Auberge la cannebiere</h2>
             <p class="nuit"> Nuit à partir de 25<strong><i class="fas fa-euro-sign"></i></strong></p>
             
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="far fa-star"></i>
+            <i class="fas fa-star etoile_bleu  "></i>
+            <i class="fas fa-star etoile_bleu  "></i>
+            <i class="fas fa-star etoile_bleu  "></i>
+            <i class="fas fa-star etoile_bleu "></i>
+            <i class="fas fa-star etoile_grise"></i>
           </article>  
         </div>
 
@@ -122,13 +127,13 @@
               <img class="image_hebergement" src="img/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="" style="width: 230px; height: 130px; margin: 0;">
           
             
-              <h2 style="line-height:15px;">Hôtel du port</h2>
+              <h2>Hôtel du port</h2>
               <p class="nuit">   Nuit à partir de 52<strong><i class="fas fa-euro-sign"></i></strong></p>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
+              <i class="fas fa-star etoile_bleu "></i>
+              <i class="fas fa-star etoile_bleu  "></i>
+              <i class="fas fa-star etoile_bleu  "></i>
+              <i class="fas fa-star etoile_bleu "></i>
+              <i class="fas fa-star etoile_bleu"></i>
 
           </article>
         </div>
@@ -139,13 +144,13 @@
             <img class="image_hebergement" src="img/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="" style="width: 230px; height: 130px; margin: 0;">
           
             
-            <h2 style="line-height:15px;">Hôtel Les mouettes</h2>
+            <h2>Hôtel Les mouettes</h2>
             <p class="nuit">   Nuit à partir de 76<strong><i class="fas fa-euro-sign"></i></strong></p>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="far fa-star"></i>
+            <i class="fas fa-star etoile_bleu"></i>
+            <i class="fas fa-star etoile_bleu"></i>
+            <i class="fas fa-star etoile_bleu"></i>
+            <i class="fas fa-star etoile_bleu"></i>
+            <i class="fas fa-star etoile_grise"></i>
         </article>
         </div>
 
@@ -155,13 +160,13 @@
             <img class="image_hebergement" src="img/hebergements/3_medium/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="" style="width: 230px; height: 130px; margin: 0;">
           
             
-            <h2 style="line-height:15px;">Hôtel de la mer</h2>
+            <h2>Hôtel de la mer</h2>
             <p class="nuit">   Nuit à partir de 46<strong><i class="fas fa-euro-sign"></i></strong></p>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="far fa-star"></i>
-            <i class="far fa-star"></i>
+            <i class="fas fa-star etoile_bleu"></i>
+            <i class="fas fa-star etoile_bleu"></i>
+            <i class="fas fa-star etoile_bleu"></i>
+            <i class="fas fa-star etoile_grise"></i>
+            <i class="fas fa-star etoile_grise"></i>
           </article>
         </div>
 
@@ -170,13 +175,13 @@
           
             <img class="image_hebergement" src="img/hebergements/3_medium/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="" style="width: 230px; height: 130px; margin: 0;">
             
-            <h2 style="line-height:15px;">Auberge Le Panier</h2>
+            <h2>Auberge Le Panier</h2>
             <p class="nuit">   Nuit à partir de 23<strong><i class="fas fa-euro-sign"></i></strong></p>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="far fa-star"></i>
+            <i class="fas fa-star etoile_bleu"></i>
+            <i class="fas fa-star etoile_bleu"></i>
+            <i class="fas fa-star etoile_bleu"></i>
+            <i class="fas fa-star etoile_bleu"></i>
+            <i class="fas fa-star etoile_grise"></i>
         </article>   
         </div>
         <div class="partie_herbegement">
@@ -185,13 +190,13 @@
             <img class="image_hebergement" src="img/hebergements/2_large/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="" style="width: 220px; height: 130px; margin: 0;">
             
             
-            <h2 style="line-height:15px;">Hôtel chez Amina</h2>
+            <h2>Hôtel chez Amina</h2>
             <p class="nuit">   Nuit à partir de 96<strong><i class="fas fa-euro-sign"></i></strong></p>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
+            <i class="fas fa-star etoile_bleu"></i>
+            <i class="fas fa-star etoile_bleu"></i>
+            <i class="fas fa-star etoile_bleu"></i>
+            <i class="fas fa-star etoile_bleu"></i>
+            <i class="fas fa-star etoile_bleu"></i>
           </article>
         </div>
 
@@ -216,7 +221,11 @@
           <div class="description_hotel">       
             <h2 style="line-height:15px;">Hôtel Le soleil du matin</h2>
             <p class="nuit"> Nuit à partir de 128<strong><i class="fas fa-euro-sign"></i></strong></p> 
-            
+            <i class="fas fa-star etoile_bleu"></i>
+            <i class="fas fa-star etoile_bleu"></i>
+            <i class="fas fa-star etoile_bleu"></i>
+            <i class="fas fa-star etoile_bleu"></i>
+            <i class="fas fa-star etoile_bleu"></i>
           </div>   
         </div>
 
@@ -231,6 +240,11 @@
           <div class="description_hotel"> 
             <h2 style="line-height:15px;">Au coeur de <br>l'eau Chambres d'hôtes</h2> 
             <p class="nuit">   Nuit à partir de  71<strong><i class="fas fa-euro-sign"></i></strong></p>
+            <i class="fas fa-star etoile_bleu"></i>
+            <i class="fas fa-star etoile_bleu"></i>
+            <i class="fas fa-star etoile_bleu"></i>
+            <i class="fas fa-star etoile_bleu"></i>
+            <i class="fas fa-star etoile_grise"></i>
           </div>
         </div>
 
@@ -242,6 +256,11 @@
           <div class="description_hotel">      
             <h2 style="line-height:15px  ;">Hôtel Tout bleu et Blanc</h2>
             <p class="nuit">   Nuit à partir de 68<strong><i class="fas fa-euro-sign"></i></strong></p>
+            <i class="fas fa-star etoile_bleu"></i>
+            <i class="fas fa-star etoile_bleu"></i>
+            <i class="fas fa-star etoile_bleu"></i>
+            <i class="fas fa-star etoile_bleu"></i>
+            <i class="fas fa-star etoile_grise"></i>
           </div>
 
         </div>
