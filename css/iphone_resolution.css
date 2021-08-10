@@ -1,0 +1,133 @@
+@media only screen 
+    and (device-width : 375px) 
+    and (device-height : 667px) 
+    and (-webkit-device-pixel-ratio : 2) { 
+    
+transition : all 0.3s ease-in-out;
+}
+.container_nav {
+clear : both;
+overflow : auto;
+
+
+}
+}
+@media only screen 
+    and (device-width : 375px) 
+    and (device-height : 667px) 
+    and (-webkit-device-pixel-ratio : 2) { 
+    
+nav {
+float : right;
+}
+.logo img {
+float : left;
+}
+}
+
+
+
+@media only screen 
+    and (device-width : 375px) 
+    and (device-height : 667px) 
+    and (-webkit-device-pixel-ratio : 2) { 
+ul li {
+display : inline-block;
+padding : 10px;
+font-size : 20px;
+font-family : raleway;
+cursor : default;
+}
+}
+
+@media only screen 
+    and (device-width : 375px) 
+    and (device-height : 667px) 
+    and (-webkit-device-pixel-ratio : 2) { 
+    a {
+text-decoration : none;
+}
+}
+                                                /* Barre de recherche*/
+@media only screen 
+    and (device-width : 375px) 
+    and (device-height : 667px) 
+    and (-webkit-device-pixel-ratio : 2) { 
+    #box {
+display : inline-flex;
+max-width : 100%;
+}
+}
+                                           
+@media only screen 
+    and (device-width : 375px) 
+    and (device-height : 667px) 
+    and (-webkit-device-pixel-ratio : 2) { 
+    input {
+border-right : none;
+border-left : none;
+border-top : 1px solid #F2F2F2;
+border-bottom : 1px solid #F2F2F2;
+padding : 0 1.5rem;
+box-sizing : border-box;
+font-size : 1rem;
+font-weight : bold;
+}
+}
+
+@media only screen                            
+    and (device-width : 375px) 
+    and (device-height : 667px) 
+    and (-webkit-device-pixel-ratio : 2) { 
+    button {
+background-color : #0065FC;
+color : white;
+font-weight : bold;
+border : none;
+border-radius : 0 1rem 1rem 0;
+padding : 0 1.5rem;
+font-size : 1rem;
+cursor : pointer;
+}
+}
+
+@media only screen 
+    and (device-width : 375px) 
+    and (device-height : 667px) 
+    and (-webkit-device-pixel-ratio : 2) { 
+
+button, input {
+overflow : visible;
+font-family : inherit;
+font-size : 100%;
+line-height : 3.15;   /* augmente la taille de notre barre de recherche*/
+margin : 0;
+}
+
+}          /* fin de responsive de la  barre de recherche*/
+
+                                          /*Hebergement et populaire*/
+ @media only screen 
+and (device-width : 375px)
+and (device-height : 667px) 
+and (-webkit-device-pixel-ratio : 2){
+
+}
+
+@media only screen                            /* Activités*/
+and (device-width : 375px) 
+and (device-height : 667px) 
+and (-webkit-device-pixel-ratio : 2) { 
+    .container_activite{
+display : flex;
+justify-content : space-around;
+flex-wrap : wrap;
+flex-direction: column;
+padding : 10px;
+padding-left : 2em;
+padding-right : 2em;
+background-color : #F2F2F2;
+}
+  }
+
+  

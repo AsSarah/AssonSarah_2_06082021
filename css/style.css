@@ -226,7 +226,9 @@ width : 100%; /* afin de prendre tout le container1 et de passer les img à la l
 
 }
 
-
+._hebergementtitre{
+	font-size: large;
+}
 
 .image_hebergement {
 border-top-left-radius : 20px;
@@ -330,151 +332,156 @@ margin-left: -45px;
                                                        /* Section activité à Marseille*/
 
 /*Englobe la partie gauche et droite des activités*/
+
+
 .container_activite{
-display : flex;
-justify-content : flex-start;
-}
-
-#activites{
-	margin-left: 0,5em;
-	 font-size: x-large;
-}
-
-
-.partie_activite_2{
-border-radius : 20px;
-margin : 50px;
-background-color : white;
-box-shadow : 8px 8px 12px #aaa;
-position: relative;
-}
-
-.partie_activite{
-border-radius : 20px;
-margin : 50px;
-background-color : white;
-box-shadow : 8px 8px 12px #aaa;
-position: relative;
-}
-
-.img_port {
-object-fit : cover;
-height : 400px;
-width : 300px;
-border-top-left-radius : 20px;
-border-top-right-radius: 20px;
-
-}
-.Description_act {
-font-size : large;
-padding: 1em 0 1em 1em;
-}
-.Fort {                                    /* bloc du Fort de pomégue*/
-border-radius : 20px;
-margin : 50px;
-background-color : white;
-padding-bottom: 4px;
-box-shadow : 8px 8px 12px #aaa;
-}
-.img_fort {
-object-fit : cover;
-height : 150px;
-width : 250px;
-border-top-left-radius : 20px;
-border-top-right-radius : 20px;
-}
-.ile {                                            /* bloc de l'île de frioul*/
-border-radius : 20px;
-margin : 50px;
-background-color : white;
-padding-bottom: 4px;
-box-shadow : 8px 8px 12px #aaa;
-}
-.img_ile {
-object-fit : cover;
-height : 100px;
-width : 250px;
-border-top-left-radius : 20px;
-border-top-right-radius : 20px;
-}
-/* Partie parc national*/
-.partie_activité_2{
-border-radius : 20px;
-margin : 30px;
-background-color : white;
-padding-top : 10px;
-padding-right : 10px;
-padding-left : 10px;
-box-shadow : 8px 8px 12px #aaa;
-position: relative;
-}
-.img_parc {
-object-fit : cover;
-height : 400px;
-width : 300px;
-border-top-left-radius : 20px;
-border-top-right-radius: 20px;
-}
-.notre_dame {                                    /* bloc de Notre Dame */
-border-radius : 20px;
-margin : 50px;
-background-color : white;
-padding-bottom: 4px;
-box-shadow : 8px 8px 12px #aaa;
-}
-.img_notre_dame {
-object-fit : cover;
-height : 150px;
-width : 250px;
-border-top-left-radius : 20px;
-border-top-right-radius : 20px;
-}
-.longchamp {                                              /* bloc du parc Longchamp*/
-border-radius : 20px;
-margin : 50px;
-background-color : white;
-padding-bottom: 4px;
-box-shadow : 8px 8px 12px #aaa;
-}
-.img_longchamp {
+	display : flex;
+	justify-content : flex-start;
+	}
+	
+	#activites{
+		margin-left: 0,5em;
+		 font-size: x-large;
+	}
+	
+	
+	.partie_activite_2{
+	border-radius : 20px;
+	margin : 50px;
+	background-color : white;
+	box-shadow : 8px 8px 12px #aaa;
+	position: relative;
+	margin-left: 30px;
+	}
+	
+	.partie_activite{
+	border-radius : 20px;
+	margin : 50px;
+	background-color : white;
+	box-shadow : 8px 8px 12px #aaa;
+	position: relative;
+	margin-left: 20px;
+    margin-right: 40px;
+	}
+	
+	.img_port {
 	object-fit : cover;
-	height : 100px;
-	width : 250px;
+	height : 400px;
+	width : 300px;
+	border-top-left-radius : 20px;
+	border-top-right-radius: 20px;
+	
+	}
+	.Description_act {
+	font-size : large;
+	padding: 1em 0 1em 1em;
+	}
+	.Fort {                                    /* bloc du Fort de pomégue*/
+	border-radius : 20px;
+	margin : 50px;
+	background-color : white;
+	padding-bottom: 4px;
+	box-shadow : 8px 8px 12px #aaa;
+	margin-left:5px ;
+    margin-right:15px ;
+	}
+	.img_fort {
+	object-fit : cover;
+	height : 150px;
+	width : 350px;
 	border-top-left-radius : 20px;
 	border-top-right-radius : 20px;
+	}
+	.ile {                                            /* bloc de l'île de frioul*/
+	border-radius : 20px;
+	margin : 50px;
+	background-color : white;
+	padding-bottom: 4px;
+	box-shadow : 8px 8px 12px #aaa;
+	margin-left: 5px;
+    margin-right: 15px;
+	}
+	.img_ile {
+	object-fit : cover;
+	height : 150px;
+	width : 350px;
+	border-top-left-radius : 20px;
+	border-top-right-radius : 20px;
+	}
+	/* Partie parc national*/
+	.partie_activité_2{
+	border-radius : 20px;
+	margin : 30px;
+	background-color : white;
+	padding-top : 10px;
+	padding-right : 10px;
+	padding-left : 10px;
+	box-shadow : 8px 8px 12px #aaa;
+	position: relative;
+	}
+	.img_parc {
+	object-fit : cover;
+	height : 400px;
+	width : 300px;
+	border-top-left-radius : 20px;
+	border-top-right-radius: 20px;
+	}
+	.notre_dame {                                    /* bloc de Notre Dame */
+	border-radius : 20px;
+	margin : 50px;
+	background-color : white;
+	padding-bottom: 4px;
+	box-shadow : 8px 8px 12px #aaa;
+	margin-left:5px ;
+    margin-right:40px ;
+	}
+	.img_notre_dame {
+	object-fit : cover;
+	height : 150px;
+	width : 350px;
+	border-top-left-radius : 20px;
+	border-top-right-radius : 20px;
+	}
+	.longchamp {                                              /* bloc du parc Longchamp*/
+	border-radius : 20px;
+	margin : 50px;
+	background-color : white;
+	padding-bottom: 4px;
+	box-shadow : 8px 8px 12px #aaa;
+	margin-left: 10px;
+    margin-right: 30px;
+	}
+	.img_longchamp {
+		object-fit : cover;
+		height : 150px;
+		width : 360px;
+		border-top-left-radius : 20px;
+		border-top-right-radius : 20px;
+	}
+	
+
+
+
+
+* {
+	box-sizing: border-box;
+  }
+  
+  /* creer 3 colonnes identiques */
+  .column {
+	float: left;
+	width: 33.33%;
+	padding: 10px;
+	height: 200px; 
+	background-color:#DEEBFF ;
+  }
+.lien_footer{
+	color: black;
+	margin-left: 20px;
 }
 
-
-
-
-
-footer {
-width : 100%;
-padding-top : 10em;
-color : white;
-display : flex;
-
-flex-direction : column;
-overflow : auto;
-position : relative;
-}
-li {
-color : black;
-
-}
-h2 {
-
-color : black;
-font-size: medium;
-}
-.column {
-position : relative;
-display : flex;
-justify-content : space-between;
-align-items: flex-start;
-
-background-color : #F2F2F2;
-}
-.left, .right, .middle {
-width : 25%;
+.footer_titre{
+	font-size: large;
+	font-family: 'Raleway', sans-serif; 
+	margin-left: 20px;
 }
