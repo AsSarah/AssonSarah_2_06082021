@@ -332,13 +332,7 @@ margin-left: -45px;
 /*Englobe la partie gauche et droite des activités*/
 .container_activite{
 display : flex;
-justify-content : space-around;
-flex-wrap : wrap;
-align-items: stretch;
-
-
-
-
+justify-content : flex-start;
 }
 
 #activites{
@@ -443,11 +437,11 @@ padding-bottom: 4px;
 box-shadow : 8px 8px 12px #aaa;
 }
 .img_longchamp {
-object-fit : cover;
-height : 150px;
-width : 250px;
-border-top-left-radius : 20px;
-border-top-right-radius : 20px;
+	object-fit : cover;
+	height : 100px;
+	width : 250px;
+	border-top-left-radius : 20px;
+	border-top-right-radius : 20px;
 }
 
 
