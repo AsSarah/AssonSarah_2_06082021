@@ -1,6 +1,9 @@
+
+
 /* Barre de navigation*/
 h1,h2,p{
 	font-family: 'Raleway', sans-serif; 
+	margin-left: 0,5em;
 }
 * {
 transition : all 0.3s ease-in-out;
@@ -8,6 +11,7 @@ transition : all 0.3s ease-in-out;
 .container_nav {
 clear : both;
 overflow : auto;
+margin-left: 0,5em;
 }
 nav {
 float : right;
@@ -29,6 +33,7 @@ text-decoration : none;
 #box {
 display : inline-flex;
 max-width : 100%;
+margin-left: 0,5em;
 }
 input {
 border-right : none;
@@ -60,8 +65,8 @@ margin : 0;
 /* Partie filtres*/
 #filtre {
 	display: flex;
-	justify-content: space-around;
-    
+	
+    margin-left: 0,5em;
     margin-top: 2em;
     font-size: 1.1em;
 }
@@ -165,25 +170,42 @@ margin : 0;
                                       /*Fin de la partie filtre*/
 .info{
 	display: flex;
-    justify-content: flex-start;
-	align-items: flex-start;
-	padding-left: 10px;
+    border-radius: 2em;
+    align-items: center;
+    padding-right: 1em;
+    margin-left: 0,5em;
+    padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.icone_info{
+	display: flex;
+	height: 20px;
+	width: 20px;
+	border: 3px solid #F2F2F2;
+	align-items: center;
+	border-radius: 50%;
+	justify-content: center;
+	margin: -2px 10px -2px -2px;
+	color: #0065FC;
 }
 
 .etoile_bleu{                        /* Notes des heébergements */
 	color: #0065FC;
+	line-height: 1px;
 }
 .etoile_grise {
     color: #b1a7a7;
+	line-height: 1px;
 }
-
 
 /* Colonne catégorie Hebergement et populaire*/
 article{
 	line-height: 2px;
+	margin-bottom: 0px;
 }
 .container{
-	display : flex;
+display : flex;
 justify-content : space-around;
 
 padding : 10px;
@@ -193,29 +215,28 @@ padding-bottom: 20px;
 
 }
 
-.image_hebergement {
-border-top-left-radius : 20px;
-border-top-right-radius : 20px;
-object-fit : cover; /* permet de redimensionner l'image*/
-}
+
 h2, .nuit {
 font-size : small;
 text-align : left;
 }
 
-/* Englobe la partie Hebergement et populaire*/
-
 .titre_hebergement {
 width : 100%; /* afin de prendre tout le container1 et de passer les img à la ligne*/
 
 }
-/* englobe la Partie hébergement*/
 
 
-.titre_hebergement {
-width : 100%; /* afin de prendre tout le container1 et de passer les img à la ligne*/
 
+.image_hebergement {
+border-top-left-radius : 20px;
+border-top-right-radius : 20px;
+object-fit : cover; /* permet de redimensionner l'image*/
+width: 250px; 
+height: 130px; 
+margin: 0;
 }
+
 /* englobe la Partie hébergement*/
 
 .container1 {
@@ -226,19 +247,20 @@ padding : 5px;
 border-radius : 20px;
 position : relative;
 padding-left : 1em;
-
-margin-right: 100px;
+padding-right:2em ;
+margin-right: 50px;
 float: left;
 background-color : #F2F2F2;
 }
 
 .partie_herbegement {
+height: 210px;
 
 border-radius : 20px;
 background-color : white;
-padding-top : 10px;
-padding-right : 10px;
-padding-left : 10px;
+padding-top : 5px;
+padding-right : 5px;
+padding-left : 5px;
 margin-bottom: 10px;
 box-shadow : 5px 5px 8px rgba(170, 170, 170, 0.959)
 }
@@ -248,8 +270,14 @@ box-shadow : 5px 5px 8px rgba(170, 170, 170, 0.959)
 .titre_populaire {
 width : 100%;/* afin de prendre tout le container1 et de passer les img à la ligne*/
 margin-bottom: -1em;
+display: flex;
+justify-content: space-around;
+font-size: large;
 
-
+}
+.business_icon{
+	font-size: larger;
+	margin-left: 3em;
 }
 .container2 {
 
@@ -280,27 +308,26 @@ box-shadow : 5px 5px 8px rgba(170, 170, 170, 0.959)
 
  .description_hotel {
 	width: 150px;
+	margin-left: 25px;
+	
  }
-  /**
   
- 
- * **/
 
 .img_populaire {
 display : flex;
 justify-content: flex-start;
 overflow : hidden;
 height : 150px; /* hauteur et largeur de mes images dans la section populaire*/
-width : 150px;
-border-top-left-radius : 30px;
-border-bottom-left-radius : 30px;
+width : 130px;
+border-top-left-radius : 20px;
+border-bottom-left-radius : 20px;
 object-fit : cover;
-
-margin-left: -40px;
+padding-bottom: 5px;
+margin-left: -45px;
 
 }
 
-/* Section activité à Marseille*/
+                                                       /* Section activité à Marseille*/
 
 /*Englobe la partie gauche et droite des activités*/
 .container_activite{
@@ -308,34 +335,30 @@ display : flex;
 justify-content : space-around;
 flex-wrap : wrap;
 align-items: stretch;
-padding : 10px;
-padding-left : 2em;
-padding-right : 2em;
-background-color : #F2F2F2;
+
+
+
 
 }
 
-
+#activites{
+	margin-left: 0,5em;
+	 font-size: x-large;
+}
 
 
 .partie_activite_2{
 border-radius : 20px;
-margin : 30px;
+margin : 50px;
 background-color : white;
-padding-top : 10px;
-padding-right : 10px;
-padding-left : 10px;
 box-shadow : 8px 8px 12px #aaa;
 position: relative;
 }
 
 .partie_activite{
 border-radius : 20px;
-margin : 30px;
+margin : 50px;
 background-color : white;
-padding-top : 10px;
-padding-right : 10px;
-padding-left : 10px;
 box-shadow : 8px 8px 12px #aaa;
 position: relative;
 }
@@ -344,19 +367,19 @@ position: relative;
 object-fit : cover;
 height : 400px;
 width : 300px;
-border-radius : 20px;
+border-top-left-radius : 20px;
+border-top-right-radius: 20px;
 
 }
 .Description_act {
 font-size : large;
+padding: 1em 0 1em 1em;
 }
-.Fort {
+.Fort {                                    /* bloc du Fort de pomégue*/
 border-radius : 20px;
-margin : 30px;
+margin : 50px;
 background-color : white;
-padding-top : 10px;
-padding-right : 10px;
-padding-left : 10px;
+padding-bottom: 4px;
 box-shadow : 8px 8px 12px #aaa;
 }
 .img_fort {
@@ -366,13 +389,11 @@ width : 250px;
 border-top-left-radius : 20px;
 border-top-right-radius : 20px;
 }
-.ile {
+.ile {                                            /* bloc de l'île de frioul*/
 border-radius : 20px;
-margin : 30px;
+margin : 50px;
 background-color : white;
-padding-top : 10px;
-padding-right : 10px;
-padding-left : 10px;
+padding-bottom: 4px;
 box-shadow : 8px 8px 12px #aaa;
 }
 .img_ile {
@@ -397,15 +418,14 @@ position: relative;
 object-fit : cover;
 height : 400px;
 width : 300px;
-border-radius : 20px;
+border-top-left-radius : 20px;
+border-top-right-radius: 20px;
 }
-.notre_dame {
+.notre_dame {                                    /* bloc de Notre Dame */
 border-radius : 20px;
-margin : 30px;
+margin : 50px;
 background-color : white;
-padding-top : 10px;
-padding-right : 10px;
-padding-left : 10px;
+padding-bottom: 4px;
 box-shadow : 8px 8px 12px #aaa;
 }
 .img_notre_dame {
@@ -415,13 +435,11 @@ width : 250px;
 border-top-left-radius : 20px;
 border-top-right-radius : 20px;
 }
-.longchamp {
+.longchamp {                                              /* bloc du parc Longchamp*/
 border-radius : 20px;
-margin : 30px;
+margin : 50px;
 background-color : white;
-padding-top : 10px;
-padding-right : 10px;
-padding-left : 10px;
+padding-bottom: 4px;
 box-shadow : 8px 8px 12px #aaa;
 }
 .img_longchamp {
@@ -452,9 +470,8 @@ color : black;
 }
 h2 {
 
-text-align : left;
 color : black;
-font-size: large;
+font-size: medium;
 }
 .column {
 position : relative;
