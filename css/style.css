@@ -334,130 +334,57 @@ margin-left: -45px;
 /*Englobe la partie gauche et droite des activités*/
 
 
+	
+.titre_activite{
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+justify-content: flex-start;
+font-size: large;
+}
+
 .container_activite{
-	display : flex;
-	justify-content : flex-start;
-	}
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+}
+.activite_1{
+ background-color:white;
+ box-shadow:  8px 8px 12px #aaa;;
+ border-radius: 20px;
+}
+.box_activite_2{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+}
+.activite_2{
+    
+    background-color:white;
+ box-shadow:  8px 8px 12px #aaa;;
+ border-radius: 20px;
+  
+}
+.act1{
+    object-fit : cover;
+    height : 400px;
+    width : 300px;
+    border-top-left-radius : 20px;
+    border-top-right-radius: 20px;
+}
+
+.act2{
+    object-fit : cover;
+    height : 150px;
+    width : 350px;
+    border-top-left-radius : 20px;
+    border-top-right-radius : 20px;
+}
+
 	
-	#activites{
-		margin-left: 0,5em;
-		 font-size: x-large;
-	}
 	
-	
-	.partie_activite_2{
-	border-radius : 20px;
-	margin : 50px;
-	background-color : white;
-	box-shadow : 8px 8px 12px #aaa;
-	position: relative;
-	margin-left: 30px;
-	}
-	
-	.partie_activite{
-	border-radius : 20px;
-	margin : 50px;
-	background-color : white;
-	box-shadow : 8px 8px 12px #aaa;
-	position: relative;
-	margin-left: 20px;
-    margin-right: 40px;
-	}
-	
-	.img_port {
-	object-fit : cover;
-	height : 400px;
-	width : 300px;
-	border-top-left-radius : 20px;
-	border-top-right-radius: 20px;
-	
-	}
-	.Description_act {
-	font-size : large;
-	padding: 1em 0 1em 1em;
-	}
-	.Fort {                                    /* bloc du Fort de pomégue*/
-	border-radius : 20px;
-	margin : 50px;
-	background-color : white;
-	padding-bottom: 4px;
-	box-shadow : 8px 8px 12px #aaa;
-	margin-left:5px ;
-    margin-right:15px ;
-	}
-	.img_fort {
-	object-fit : cover;
-	height : 150px;
-	width : 350px;
-	border-top-left-radius : 20px;
-	border-top-right-radius : 20px;
-	}
-	.ile {                                            /* bloc de l'île de frioul*/
-	border-radius : 20px;
-	margin : 50px;
-	background-color : white;
-	padding-bottom: 4px;
-	box-shadow : 8px 8px 12px #aaa;
-	margin-left: 5px;
-    margin-right: 15px;
-	}
-	.img_ile {
-	object-fit : cover;
-	height : 150px;
-	width : 350px;
-	border-top-left-radius : 20px;
-	border-top-right-radius : 20px;
-	}
-	/* Partie parc national*/
-	.partie_activité_2{
-	border-radius : 20px;
-	margin : 30px;
-	background-color : white;
-	padding-top : 10px;
-	padding-right : 10px;
-	padding-left : 10px;
-	box-shadow : 8px 8px 12px #aaa;
-	position: relative;
-	}
-	.img_parc {
-	object-fit : cover;
-	height : 400px;
-	width : 300px;
-	border-top-left-radius : 20px;
-	border-top-right-radius: 20px;
-	}
-	.notre_dame {                                    /* bloc de Notre Dame */
-	border-radius : 20px;
-	margin : 50px;
-	background-color : white;
-	padding-bottom: 4px;
-	box-shadow : 8px 8px 12px #aaa;
-	margin-left:5px ;
-    margin-right:40px ;
-	}
-	.img_notre_dame {
-	object-fit : cover;
-	height : 150px;
-	width : 350px;
-	border-top-left-radius : 20px;
-	border-top-right-radius : 20px;
-	}
-	.longchamp {                                              /* bloc du parc Longchamp*/
-	border-radius : 20px;
-	margin : 50px;
-	background-color : white;
-	padding-bottom: 4px;
-	box-shadow : 8px 8px 12px #aaa;
-	margin-left: 10px;
-    margin-right: 30px;
-	}
-	.img_longchamp {
-		object-fit : cover;
-		height : 150px;
-		width : 360px;
-		border-top-left-radius : 20px;
-		border-top-right-radius : 20px;
-	}
 	
 
 
