@@ -343,6 +343,11 @@ justify-content: flex-start;
 font-size: large;
 }
 
+.description_act{
+    padding: 1em 0 1em 1em;
+    line-height: 2px;
+    font-weight: bold;
+}
 .container_activite{
     display: flex;
     justify-content: space-around;
