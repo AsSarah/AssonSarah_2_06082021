@@ -1,5 +1,7 @@
 
 
+	
+
 /* Barre de navigation*/
 h1,h2,p{
 	font-family: 'Raleway', sans-serif; 
@@ -23,7 +25,7 @@ ul li {
 display : inline-block;
 padding : 10px;
 font-size : 20px;
-font-family : raleway;
+font-family: 'Raleway', sans-serif; 
 cursor : default;
 }
 a {
@@ -34,6 +36,7 @@ text-decoration : none;
 display : inline-flex;
 max-width : 100%;
 margin-left: 0,5em;
+font-family: 'Raleway', sans-serif; 
 }
 input {
 border-right : none;
@@ -214,9 +217,20 @@ padding-right : 2em;
 padding-bottom: 20px;
 
 }
-
-
-h2, .nuit {
+h1{
+	font-family: 'Raleway', sans-serif; 
+	font-size: xx-large;
+}
+h2 {
+	text-align: left;
+	font-size: medium;
+	font-family: 'Raleway', sans-serif; 
+}
+p{
+	font-family: 'Raleway', sans-serif; 
+	font-size: large;
+}
+.nuit {
 font-size : small;
 text-align : left;
 }
@@ -226,7 +240,7 @@ width : 100%; /* afin de prendre tout le container1 et de passer les img à la l
 
 }
 
-._hebergementtitre{
+#_hebergementtitre{
 	font-size: large;
 }
 
@@ -298,10 +312,10 @@ display : flex;
 justify-content : flex-start;
 
 border-radius : 20px;
-margin : 30px; /* j'ai reduit la marge du border*/
+margin : 8px; /* j'ai reduit la marge du border*/
 background-color : white;
-padding-top : 5px;
-padding-right : 40px;
+margin-top: 30px;
+padding-right: 20px;
 padding-left : 3em;
 box-shadow : 5px 5px 8px rgba(170, 170, 170, 0.959)
 
@@ -335,7 +349,7 @@ margin-left: -45px;
 
 
 	
-.titre_activite{
+#titre_activite{
     width: 100%;
     margin-top: 20px;
     display: flex;
@@ -417,3 +431,197 @@ font-size: large;
 	font-family: 'Raleway', sans-serif; 
 	margin-left: 20px;
 }
+ /* Responsive mobile iphone 8*/ 
+ @media only screen                         /*Responsive partie Filtres*/
+ and (device-width : 375px) 
+and (device-height : 667px) 
+and (-webkit-device-pixel-ratio : 2){
+		#filtre {
+		display: flex;
+		align-items: flex-start;
+		flex-direction: column;
+		font-size: 1em;
+		
+	}
+	.titre_filtre{
+		width: 100%;
+		
+	}
+
+	.eco{
+		margin: 0;
+        margin-bottom: 10px;
+	}
+	.familial{
+		margin: 0;
+		margin-bottom: 10px;
+	}
+
+	.romantique{
+	margin: 0;
+    margin-bottom: 10px;
+	}
+
+	.animaux{
+		margin: 0;
+    margin-bottom: 10px;
+	}
+}
+ 
+
+ @media only screen                    /* Responsive partie hebergement et populaire*/
+ and (device-width : 375px) 
+and (device-height : 667px) 
+and (-webkit-device-pixel-ratio : 2){
+
+
+   
+	
+   
+.partie_herbegement{
+   margin: 5px;
+   border-radius : 20px;
+   background-color : white;
+   width: auto;
+   box-shadow : 5px 5px 8px rgba(170, 170, 170, 0.959)
+	   
+   }
+.container{                                 /* englobe la partie hebergement et populaire*/
+   flex-direction: column-reverse;         /* Inverser le container hebergement et populaire*/
+   align-content: center;
+   margin: 0;
+   padding: 0;
+   }
+	   
+.image_hebergement {
+			   
+   object-fit : cover;
+   width : 340px;
+   border-top-left-radius : 20px;
+   border-top-right-radius : 20px;
+   }
+	   
+	   
+.container1 {
+		   
+	margin-top: 2em;
+   background-color: white;
+   flex-direction: row;
+   width: 100%;
+   height: 100%;
+		   
+   }
+				 
+
+.container2 {
+
+
+   flex-direction: column;
+   align-content: center;
+   margin: 0;
+   padding: 0;
+   background-color : #F2F2F2;
+				   
+				   
+   }
+  
+
+.description_hotel {
+   width: 150px;
+   margin-left: 25px;
+					   
+	}
+		
+}
+
+
+@media only screen                         /*Responsive des Activités*/
+and (device-width : 375px) 
+and (device-height : 667px) 
+and (-webkit-device-pixel-ratio : 2){
+	.container_activite{
+		display: flex;
+		justify-content: space-around;
+		margin-bottom: 50px;
+		flex-wrap: wrap;
+	}
+	
+	.act1{
+		object-fit : cover;
+		height : 150px;
+		width : 350px;
+		border-top-left-radius : 20px;
+		border-top-right-radius : 20px;
+	}
+    .activite_1{
+		display: block;
+	}
+	.box_activite_2{
+		display: block;
+		margin-top: 20px;
+		
+	
+	}
+}
+						  
+
+@media only screen                        
+and (device-width : 768px) 
+and (device-height : 1024px) 
+and (-webkit-device-pixel-ratio : 2){
+	.partie_herbegement{
+   margin: 5px;
+   border-radius : 20px;
+   background-color : white;
+   width: auto;
+   box-shadow : 5px 5px 8px rgba(170, 170, 170, 0.959)
+	   
+   }
+.container{                                 /* englobe la partie hebergement et populaire*/
+   flex-direction: column-reverse;         /* Inverser le container hebergement et populaire*/
+   align-content: center;
+   margin: 0;
+   padding: 0;
+   }
+	   
+.image_hebergement {
+			   
+   object-fit : cover;
+   width : 340px;
+   border-top-left-radius : 20px;
+   border-top-right-radius : 20px;
+   }
+	   
+	   
+.container1 {
+		   
+	margin-top: 2em;
+   background-color: white;
+   flex-direction: row;
+   width: 100%;
+   height: 100%;
+		   
+   }
+				 
+
+.container2 {
+
+
+   flex-direction: column;
+   align-content: center;
+   margin: 0;
+   padding: 0;
+   background-color : #F2F2F2;
+				   
+				   
+   }
+  
+
+.description_hotel {
+   width: 150px;
+   margin-left: 25px;
+					   
+	}
+}						  
+ 
+
