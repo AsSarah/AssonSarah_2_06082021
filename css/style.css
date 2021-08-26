@@ -70,6 +70,7 @@ input {
     font-weight : bold;
 }
 button {
+	
     background-color : #0065FC;
     color : white;
     font-weight : bold;
@@ -80,6 +81,7 @@ button {
     cursor : pointer;
 }
 button, input {
+	
     overflow : visible;
     font-family : inherit;
     font-size : 100%;
@@ -590,9 +592,7 @@ h1{
         
     }
 
-    .recherche{
-        display: none;
-    }
+    
     .icone_recherche, input {
        
         padding-left: 10px;
@@ -812,6 +812,10 @@ and (max-width:1024px){
     .icone_info{
         margin-left: 45px;
     }
+
+	
+
+	
 
 
 }
