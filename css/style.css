@@ -247,9 +247,9 @@ article{
 	justify-content : space-around;
 
 	padding : 10px;
-	padding-left : 2em;
+	/* padding-left : 2em;
 	padding-right : 2em;
-	padding-bottom: 20px;
+	padding-bottom: 20px; */
 
 }
 h1{
@@ -1005,7 +1005,7 @@ and (max-width:1024px){
   
     
 		.activite_1{
-			margin: 0 5em 2em 0;
+			
 			margin-right: 10px;
 		}
 	
